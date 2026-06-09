@@ -21,7 +21,7 @@ jobs:
       - name: Commit & Push
         run: |
           git config --local user.email "deolmayank20@gmail.com"
-          git config --local user.name "deolmayank"
+          git config --local user.name "deolmay"
           git add .
           git commit -m "Daily auto commit"
           git push
